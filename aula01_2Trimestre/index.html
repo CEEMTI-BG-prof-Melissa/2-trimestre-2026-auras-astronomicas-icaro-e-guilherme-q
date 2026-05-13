@@ -7,33 +7,33 @@
    
 <body>
         <h1> Cadastro de Usuário</h1>
-        <form action ="cadastro.php" method="enviar">
+        <form action ="cadastro.php" method="enviar"> <!--POST-->
         <label for="nome">Nome:</label>  
-        <input type="text" id="nome">
+        <input type="text" id="nome"> <!--falta o name-->
         <br>
         <label for="email">E-mail:</label>
         <input type="email" id="email" name="email">
         <br>
         <label for="senha">Senha:</label>
-        <input type="password" name="senha">
+        <input type="password" name="senha"> <!--falta id-->
         <br>
         <label for="idade">Idade:</label>
         <input type="number" id="idade" name="idade">
         <br>
-        <label for="data">Data de Nascimento:</label>
-        <input type="date" id=nascimento>
+        <label for="data">Data de Nascimento:</label><!--for tem q ser igual ao id-->
+        <input type="date" id=nascimento> <!--falta name-->
         <br>
         <p>Turno:</p>
         <input type="radio" name="turno" id="manha" value=manha ><label for="manha">Manhã</label>
-        <input type="radio" name="turno" id="tarde" value=tarde ><label for="tarde">Tarde</label>
-        <input type="radio" name="turno" id="noite" value=noite ><label for="noite">Noite</label>
+        <input type="radio" name="turno" id="tarde" value=tarde ><label for="tarde">Tarde</label><!--name-->
+        <input type="radio" name="turno" id="noite" value=noite ><label for="noite">Noite</label><!--name-->
         <br>
         <input type="checkbox" name="area" id="programacao" value=programacao> <label for="programacao">programação</label>
         <input type="checkbox" name="area" id="design" value=design><label for="design">Design</label>
-        <input type="checkbox" name="areas" id="redes" value=programacao><label for="redes">Redes</label>
+        <input type="checkbox" name="areas" id="redes" value=programacao><label for="redes">Redes</label><!--name-->
         <br>
         <input type="reset" value="Limpar">
         <input type="submit" value="Enviar">
-    </form>
+        </form>
 </body>
 </html>
