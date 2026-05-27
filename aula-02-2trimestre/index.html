@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controles de Formulários</title>
+</head>
+<body>
+    <h1>Preferências</h1>
+    <form action="index.html" method="get">
+        <label for="nome">Seu nome:</label>
+        <input type="text" name="nome" id="nome">
+        <br><br>
+        <p>Qual turno você prefere estudar?</p>
+        <input type="radio" name="manha" id="manha" value="manha">
+        <label for="manha">Manhã</label>
+        <br>
+        <input type="radio" name="tarde" id="tarde" value="tarde">
+        <label for="tarde">Tarde</label>
+        <br>
+        <input type="radio" name="noite" id="noite" value="noite">
+        <label for="noite">Noite</label>
+        <br> 
+        <p>Quais áreas da tecnologia você tem interesse?</p> 
+        <input type="checkbox" name="programacao" id="programacao" value="programacao">
+        <label for="programacao">Programação</label>
+        <br>
+        <input type="checkbox" name="design" id="design" value="programacao">
+        <label for="design">Design</label>
+        <br>
+        <input type="checkbox" name="bdd" id="bdd" value="bdd">
+        <label for="bdd">Banco de Dados</label>
+        <br>
+        <input type="checkbox" name="redes" id="redes" value="redes">
+        <label for="redes">Redes</label>
+        <br>
+        <label for="corfavorita">Qual sua cor favorita?</label>
+        <input type="color" name="corfavorita" id="corfavorita" value="corfavorita">
+        <br><br>
+        <label for="nivels">Qual seu nível de satisfação?</label>
+        <input type="range" name="nivels" id="nivels" value="nivels">
+        <br><br>
+        <label for="hrr">Qual seu horário preferido?</label>
+        <input type="time" name="hrr" id="hrr" value="hrr">
+        <br><br>
+        <label for="arquivoe">Envie uma arquivo</label>
+        <input type="file" name="arquivoe" id="arquivoe" value="escolha um arquivo">
+        <br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+
+        
+    </form>
+
+
+</body>
+</html>
